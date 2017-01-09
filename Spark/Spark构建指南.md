@@ -41,6 +41,12 @@ sbt -Pyarn -Phadoop-2.6 -DskipTests assembly
 
 #### 编译问题汇总
 
+##### 无法下载到mqttv3
+
+手动下载jar
+https://repo.eclipse.org/content/repositories/paho-releases/org/eclipse/paho/org.eclipse.paho.client.mqttv3/1.0.1/
+放置到`~/.m2/.../mqttv3/`
+
 ##### QueryExecutionListener.sacla during phase: jvm
 
 1. Build
